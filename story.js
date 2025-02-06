@@ -1,7 +1,9 @@
 playerName = prompt("What is your name?");
 
+
 alert("Nice to meet you, " + playerName + "!");
 alert(introText);
+
 
 let choice = prompt("How do you wish to live your life?\n" + pathText1 + "\n" + pathText2 + "\n" + pathText3);
 
@@ -38,5 +40,14 @@ if (choice === "A") {
 } else {
     alert("Invalid choice. Please restart the game.");
 }
+
+let secondchance = prompt("Do you believe that you will remain as you are forever?");
+    if(secondchance === "Yes"){
+        alert(secondChanceText1)
+    }else if (secondchance === "No"){
+        alert(secondChanceText2)
+    }else{
+        alert("Invalid choice. Please restart the game.")
+    }
 
 alert(endText);

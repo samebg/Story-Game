@@ -14,6 +14,7 @@ const resultText3 = "Because you have chosen to live your life not caring for ei
 const secondDecisionText1 = "Do you seek wealth (A) or fame (B)?";
 const secondDecisionText2 = "Do you seek wisdom (A) or peace (B)?";
 const secondDecisionText3 = "Do you choose to wander aimlessly (A) or watch the world pass by (B)?";
+const secondDecisionText4 = "Are you absolutely sure and certain?"
 
 const secondResultText1A = "In pursuit of wealth, you lose sight of what truly matters.";
 const secondResultText1B = "In pursuit of fame, you find yourself surrounded by shadows.";
@@ -23,3 +24,6 @@ const secondResultText2B = "In seeking peace, you find rest for your soul.";
 
 const secondResultText3A = "Wandering aimlessly, you find nothingness.";
 const secondResultText3B = "Watching the world pass by, you remain unchanged and unmoved.";
+
+const secondChanceText1 = "How unfortunate"
+const secondChanceText2 = "We must accept finite disappointment, but never lose infinite hope."
